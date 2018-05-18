@@ -18,16 +18,13 @@ class About extends React.Component {
                     <Col sm={0} md={2} />
                     <Col sm={12} md={8}>
                         <Col sm={12} md={4}>
-                            <Panel className="profileDiv">
-                                <Panel.Heading>
+                            
                                     <Image className="profile" src={require('./alex.jpg')} circle responsive />
-                                </Panel.Heading>
-                                <Panel.Body className="profileBody">
+                               
                                     <div className="aboutMe">
-                                        I am an up and coming full stack web and software developer. With several varied projects under my belt, I am confident in leading or collaborating on any project from specs to production. I pride myself on my ability to adapt to the situation around me and to learn quicky and on the fly if needed. Software Development is my passion.
+                                        I'm an up and coming full stack web and software developer. With several varied projects under my belt, I am confident in leading or collaborating on any project from specs to production. I pride myself on my ability to adapt to the situation around me and to learn quicky and on the fly if needed. Software Development is my passion.
                                 </div>
-                                </Panel.Body>
-                            </Panel>
+                            
                         </Col>
                         <Col sm={12} md={4}>
                             <div>

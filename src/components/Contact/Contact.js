@@ -22,7 +22,7 @@ const Contact = () => (
         <Grid>
             <Row className="contactRow">
                 <Col className="contactInfo" xs={12} md={4}>
-                    <h3>Email: </h3>
+                    <h4 className="contactHead">Email: </h4>
                 </Col>
                 <Col className="contactInfo"  xs={12} md={4}>
                    <h4>arheeee@gmail.com</h4>
@@ -32,7 +32,7 @@ const Contact = () => (
             </Row>
             <Row className="contactRow">
                 <Col xs={12} md={4}>
-                    <h3>LinkedIn</h3>
+                    <h4 className="contactHead">LinkedIn:</h4>
                 </Col>
                 <Col xs={12} md={4}>
                 <h4>https://www.linkedin.com/in/arhee/</h4>
@@ -43,7 +43,7 @@ const Contact = () => (
             </Row>
             <Row className="contactRow">
                 <Col xs={12} md={4}>
-                    <h3>GitHub</h3>
+                    <h4 className="contactHead">GitHub:</h4>
                 </Col>
                 <Col xs={12} md={4}>
                 <h4>https://github.com/AlexRhee</h4>
