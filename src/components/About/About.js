@@ -42,7 +42,7 @@ class About extends React.Component {
                                 </Thumbnail>
                         </Col>
                         <Col sm={6} md={6}>
-                            <Row className="thumbRow">                             
+                                                       
                                 <Thumbnail src={require('./ruler.png')} alt="242x200">
                                     <h3>Clean</h3>
                                     <p>Intuitive interfaces and bug free environments are always a priority.</p>
@@ -53,7 +53,7 @@ class About extends React.Component {
                                     <p>Quick and lag free sites, by utilizng the most up to date languages.</p>
                                    
                                 </Thumbnail>
-                            </Row>
+                            
                         </Col>
                     </Col>
                 </Row>

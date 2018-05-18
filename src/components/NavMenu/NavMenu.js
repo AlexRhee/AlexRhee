@@ -26,9 +26,6 @@ var scrollContact = () => (
 const NavMenu = () => (
   <Navbar inverse collapseOnSelect>
     <Navbar.Header>
-      <Navbar.Brand>
-        <a href="#brand">Alex Rhee</a>
-      </Navbar.Brand>
       <Navbar.Toggle />
     </Navbar.Header>
     <Nav>

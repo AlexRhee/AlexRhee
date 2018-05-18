@@ -1,0 +1,14 @@
+.contactIcons {
+    width: 10vh;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contactIcons:hover {
+    cursor:pointer;
+}
+
+.contactRow {
+    margin-bottom: 10vh;
+}

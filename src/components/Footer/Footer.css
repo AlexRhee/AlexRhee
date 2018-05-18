@@ -1,0 +1,45 @@
+.footer {
+    background-color: rgb(53, 53, 53);
+    color: white !important;
+    width: 100%;
+    margin-top: 10vh;
+}
+
+.footerSection {
+    color: white !important;
+    text-align: center;
+    padding: 5px;
+    margin-top: 0vh;
+    margin-bottom: 5vh;
+}
+
+.iconLinks {
+    float: right;
+}
+
+.footerIcons {
+    width: 10vh;
+    height: auto;
+    float: right;
+    overflow: auto;
+    margin-right: 10vh;
+    margin-top: 0vh;
+    margin-bottom: 3vh;
+}
+
+.footerIcons:hover {
+    cursor: pointer;
+}
+
+.upArrow {
+    justify-content: center;
+    width: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: ivory;
+    border-style: dashed;
+}
+
+.upArrow:hover {
+    cursor:pointer;
+}

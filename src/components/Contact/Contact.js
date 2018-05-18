@@ -1,12 +1,60 @@
 import React from "react";
 import './Contact.css';
-import { Modal, Button, Image } from 'react-bootstrap';
+import { Grid, Row, Col, Glyphicon, Image } from 'react-bootstrap';
+
+var linkedin = () => {
+    return (
+        window.open("https://www.linkedin.com/in/arhee/")
+    )
+}
+
+var github = () => {
+    return (
+        window.open("https://github.com/AlexRhee")
+    )
+}
 
 const Contact = () => (
     <div id="contactStart">
-<div className="aboutFiller" />
+        <div className="aboutFiller" />
         <h1 className="aboutHeader">Contact</h1>
+
+        <Grid>
+            <Row className="contactRow">
+                <Col className="contactInfo" xs={12} md={4}>
+                    <h2>Email: </h2>
+                </Col>
+                <Col className="contactInfo"  xs={12} md={4}>
+                   <h3>arheeee@gmail.com</h3>
+                </Col>
+                <Col className="contactInfo"  xs={12} md={4}>
+                </Col>
+            </Row>
+            <Row className="contactRow">
+                <Col xs={12} md={4}>
+                    <h2>LinkedIn</h2>
+                </Col>
+                <Col xs={12} md={4}>
+                <h3>https://www.linkedin.com/in/arhee/</h3>
+                </Col>
+                <Col xs={12} md={4}>
+                <Image className="contactIcons" src={require('./linkedin.png')} circle responsive onClick={linkedin}/>
+                </Col>
+            </Row>
+            <Row className="contactRow">
+                <Col xs={12} md={4}>
+                    <h2>GitHub</h2>
+                </Col>
+                <Col xs={12} md={4}>
+                <h3>https://github.com/AlexRhee</h3>
+                </Col>
+                <Col xs={12} md={4}>
+                <Image className="contactIcons" src={require('./github.png')} circle responsive onClick={github}/>
+                </Col>
+            </Row>
+
+        </Grid>
     </div>
-  );
-  
-  export default Contact;
+);
+
+export default Contact;

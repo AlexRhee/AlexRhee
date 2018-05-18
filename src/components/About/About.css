@@ -5,6 +5,7 @@
 .aboutHeader {
     font-size: 40px;
     margin-bottom: 5vh;
+    text-decoration: underline;
 }
 
 .panelHeader {
@@ -37,4 +38,12 @@ background-color: #E0F7FF;
 .profileDiv {
     margin-left: 15vh;
     margin-right: 15vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .profileDiv {
+        margin-left: 3vh;
+        margin-right: auto;
+        justify-content: center;
+    }
 }

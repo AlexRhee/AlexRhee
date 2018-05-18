@@ -9,7 +9,8 @@
     "react-icon-base": "^2.1.2",
     "react-icons": "^2.2.7",
     "react-scripts": "1.1.4",
-    "react-sticky": "^6.0.2"
+    "react-sticky": "^6.0.2",
+    "semantic-ui-react": "^0.80.0"
   },
   "scripts": {
     "start": "react-scripts start",
