@@ -22,20 +22,20 @@ const Contact = () => (
         <Grid>
             <Row className="contactRow">
                 <Col className="contactInfo" xs={12} md={4}>
-                    <h2>Email: </h2>
+                    <h3>Email: </h3>
                 </Col>
                 <Col className="contactInfo"  xs={12} md={4}>
-                   <h3>arheeee@gmail.com</h3>
+                   <h4>arheeee@gmail.com</h4>
                 </Col>
                 <Col className="contactInfo"  xs={12} md={4}>
                 </Col>
             </Row>
             <Row className="contactRow">
                 <Col xs={12} md={4}>
-                    <h2>LinkedIn</h2>
+                    <h3>LinkedIn</h3>
                 </Col>
                 <Col xs={12} md={4}>
-                <h3>https://www.linkedin.com/in/arhee/</h3>
+                <h4>https://www.linkedin.com/in/arhee/</h4>
                 </Col>
                 <Col xs={12} md={4}>
                 <Image className="contactIcons" src={require('./linkedin.png')} circle responsive onClick={linkedin}/>
@@ -43,10 +43,10 @@ const Contact = () => (
             </Row>
             <Row className="contactRow">
                 <Col xs={12} md={4}>
-                    <h2>GitHub</h2>
+                    <h3>GitHub</h3>
                 </Col>
                 <Col xs={12} md={4}>
-                <h3>https://github.com/AlexRhee</h3>
+                <h4>https://github.com/AlexRhee</h4>
                 </Col>
                 <Col xs={12} md={4}>
                 <Image className="contactIcons" src={require('./github.png')} circle responsive onClick={github}/>

@@ -1,5 +1,5 @@
 .aboutFiller {
-    height: 5vh;
+    height: 2vh;
 }
 
 .aboutHeader {
@@ -36,14 +36,27 @@ background-color: #E0F7FF;
 }
 
 .profileDiv {
-    margin-left: 15vh;
-    margin-right: 15vh;
+    /* margin-left: 15vh;
+    margin-right: 15vh; */
 }
 
 @media only screen and (max-width: 600px) {
     .profileDiv {
         margin-left: 3vh;
         margin-right: auto;
-        justify-content: center;
+
     }
+
+
+}
+
+.aboutDiv {
+    padding-right: auto !important;
+    padding-left: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.aboutMe {
+    text-align: left;
 }

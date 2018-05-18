@@ -43,3 +43,7 @@
 .upArrow:hover {
     cursor:pointer;
 }
+
+.row {
+    width: 100% !important;
+}

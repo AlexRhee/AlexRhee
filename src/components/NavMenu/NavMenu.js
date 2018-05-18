@@ -30,19 +30,19 @@ const NavMenu = () => (
       <Navbar.Toggle />
     </Navbar.Header>
     <Nav>
-      <NavItem onClick={scrollHome}>
+      <NavItem className="navItem" onClick={scrollHome}>
         Home
   </NavItem>
-      <NavItem onClick={scrollAbout}>
+      <NavItem className="navItem" onClick={scrollAbout}>
         About
   </NavItem>
-      <NavItem onClick={scrollSkills}>
+      <NavItem className="navItem" onClick={scrollSkills}>
         Skills
   </NavItem>
-      <NavItem onClick={scrollPortfolio}>
+      <NavItem className="navItem" onClick={scrollPortfolio}>
         Portfolio
   </NavItem>
-      <NavItem onClick={scrollContact}>
+      <NavItem className="navItem" onClick={scrollContact}>
         Contact
   </NavItem>
     </Nav>
