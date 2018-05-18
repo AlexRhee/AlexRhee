@@ -1,0 +1,61 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-color: ivory;
+}
+
+.header {
+height: 100vh;
+background: #050919;
+width: 100%;
+
+}
+
+
+#heroHeader {
+    margin-top: 0;
+    justify-content: center;
+    text-align: center;
+    color: ivory;
+}
+
+
+#learnBtn {
+    color: ivory;
+    box-sizing: border-box;
+    border-color: ivory;
+    border-style: solid;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    z-index: 8000 !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+#learnBtn:hover {
+    cursor: pointer;
+}
+
+canvas{
+	display:block;
+    vertical-align:bottom;
+    overflow: auto;
+    position:absolute;
+    top: 0;
+    height: 100vh;
+    z-index: 1 !important;
+}
+
+#heroFiller {
+    height: 35vh;
+}
