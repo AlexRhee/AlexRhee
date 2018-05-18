@@ -1,0 +1,14 @@
+.progress {
+    width: 70% !important;
+    justify-content:center;
+    float: right;
+    margin-right: 7%;
+}
+.progressName {
+    margin-left: 7%;
+}
+
+.skillsHeader {
+    text-align: left;
+    margin-left: 11%;
+}

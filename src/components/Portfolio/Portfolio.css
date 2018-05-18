@@ -1,0 +1,57 @@
+.projectImage {
+    opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  
+}
+
+.directions {
+    overflow:auto;
+}
+
+.proj-container {
+    position: relative;
+    width: 50%;
+    margin-bottom: 3vh;
+    margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  background-color: ivory;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.proj-container:hover .projectImage {
+  opacity: 0.3;
+}
+
+.proj-container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #51B8DB;
+  color: ivory;
+  font-size: 26px;
+  padding: 16px 32px;
+}
+
+.descrip {
+    font-size: 18px;
+}
+
+.text:hover {
+    cursor: pointer;
+}

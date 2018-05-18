@@ -1,0 +1,40 @@
+.aboutFiller {
+    height: 5vh;
+}
+
+.aboutHeader {
+    font-size: 40px;
+    margin-bottom: 5vh;
+}
+
+.panelHeader {
+    background-color: #FFFD9B !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.panelBody {
+    background-color: #A6ECF4 !important;
+}
+
+.thumbnail, .profileBody {
+
+background-color: #E0F7FF;
+}
+
+.thumbRow {
+    width: 100%;
+    max-width: 100%;
+}
+
+.profile {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0vh;
+    padding-right: 0vh;
+}
+
+.profileDiv {
+    margin-left: 15vh;
+    margin-right: 15vh;
+}
