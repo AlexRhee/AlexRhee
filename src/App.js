@@ -5,8 +5,8 @@ import About from "./components/About";
 import NavMenu from "./components/NavMenu";
 import Skills from "./components/Skills";
 import Portfolio from "./components/Portfolio";
-import  Contact from "./components/Contact";
-import  Footer from "./components/Footer";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import { StickyContainer, Sticky } from 'react-sticky';
 
 
@@ -15,9 +15,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-
-                <NavMenu />
-
+        <NavMenu />
         <About />
         <Skills />
         <Portfolio />

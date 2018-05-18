@@ -2,6 +2,7 @@ import React from "react";
 import './NavMenu.css';
 import { Nav, Navbar, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 
+
 var scrollHome = () => (
   document.getElementById("home").scrollIntoView({ behavior: "smooth", block: "start" })
 )

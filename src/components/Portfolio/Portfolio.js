@@ -64,10 +64,10 @@ class Portfolio extends React.Component {
         <div className="aboutFiller" />
         <h1 className="aboutHeader">Portfolio</h1>
 
-        <div class="proj-container">
+        <div className="proj-container">
           <img src={require('./thelistlogo.png')} alt="Avatar" class="projectImage" />
-          <div class="middle">
-            <div class="text" onClick={this.handleShow}>
+          <div className="middle">
+            <div className="text" onClick={this.handleShow}>
               The List
         <p className="descrip">Product List Blog Using MySQL and RESTful API Principles</p>
         <h4>Click to learn more!</h4>
