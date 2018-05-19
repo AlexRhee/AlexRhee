@@ -3,7 +3,8 @@
 }
 
 body {
-    background-color: ivory;
+    background-color: #050919;
+    color: ivory;
 }
 
 .header {
@@ -19,6 +20,7 @@ width: 100%;
     justify-content: center;
     text-align: center;
     color: ivory;
+    z-index: 1;
 }
 
 
@@ -44,6 +46,8 @@ width: 100%;
 
 #learnBtn:hover {
     cursor: pointer;
+    background-color: ivory;
+    color: #050919;
 }
 
 canvas{
@@ -54,6 +58,11 @@ canvas{
     top: 0;
     height: 100vh;
     z-index: 1 !important;
+    color: #050919 !important;
+}
+
+.count-particles {
+    display: none;
 }
 
 #heroFiller {

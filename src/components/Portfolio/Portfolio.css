@@ -55,3 +55,7 @@
 .text:hover {
     cursor: pointer;
 }
+
+.modal-content {
+  color: #050919 !important;
+}

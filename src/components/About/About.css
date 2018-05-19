@@ -4,8 +4,7 @@
 
 .aboutHeader {
     font-size: 40px;
-    margin-bottom: 5vh;
-    text-decoration: underline;
+    margin-bottom: 7vh;
 }
 
 .panelHeader {
@@ -60,4 +59,28 @@ background-color: #E0F7FF;
 .aboutMe {
     text-align: left;
     margin-top: 3vh;
+}
+
+.aboutImg {
+    border-radius: 25%;
+    background: #FCFA85;
+    padding: 0; 
+    width: auto;
+    height: auto;  
+}
+
+.aboutImg:hover {
+    border-radius: 25%;
+    background: ivory;
+    padding: 0; 
+    width: auto;
+    height: auto;  
+}
+
+.aboutTransition-enter {
+    opacity: 0;
+}
+
+.aboutTransition-enter.aboutTransition-enter-active {
+    opacity: 1;
 }
