@@ -3,3 +3,7 @@
     color: #A6ECF4;
     margin-right: 2vw;
 }
+
+#navi {
+    z-index: 9000;
+}

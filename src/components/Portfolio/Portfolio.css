@@ -8,6 +8,10 @@
   
 }
 
+#portfolioStart {
+  height: auto;
+}
+
 .directions {
     overflow:auto;
 }

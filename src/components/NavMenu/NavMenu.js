@@ -1,4 +1,5 @@
 import React from "react";
+import ReactDOM from 'react-dom'
 import './NavMenu.css';
 import { Nav, Navbar, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 
@@ -23,30 +24,68 @@ var scrollContact = () => (
   document.getElementById("contactStart").scrollIntoView({ behavior: "smooth", block: "start" })
 )
 
+var n;
 
-const NavMenu = () => (
-  <Navbar inverse collapseOnSelect>
-    <Navbar.Header>
-      <Navbar.Toggle />
-    </Navbar.Header>
-    <Nav>
-      <NavItem className="navItem" onClick={scrollHome}>
-        Home
+class NavMenu extends React.Component {
+
+  componentDidMount() {
+    n = ReactDOM.findDOMNode(this);
+    console.log(n.offsetTop);
+
+     // When the user scrolls the page, execute myFunction 
+     window.onscroll = function () { myFunction() };
+
+     // Get the navbar
+     var navi = document.getElementById("navi");
+ 
+     // Get the offset position of the navi
+     var sticky = n.offsetTop;
+     
+ 
+     // Add the sticky class to the navi when you reach its scroll position. Remove "sticky" when you leave the scroll position
+     function myFunction() {
+      console.log("sticky", sticky)
+      //  console.log("n =", n, "navi =", navi)
+       if (window.pageYOffset >= sticky) {
+         navi.classList.add("sticky")
+       } else {
+         navi.classList.remove("sticky");
+       }
+     }
+  }
+
+  render() {
+
+   
+
+
+    return (
+      <Navbar id="navi" inverse collapseOnSelect>
+        <Navbar.Header>
+          <Navbar.Toggle />
+        </Navbar.Header>
+        <Navbar.Collapse>
+        <Nav>
+          <NavItem className="navItem" onClick={scrollHome}>
+            Home
   </NavItem>
-      <NavItem className="navItem" onClick={scrollAbout}>
-        About
+          <NavItem className="navItem" onClick={scrollAbout}>
+            About
   </NavItem>
-      <NavItem className="navItem" onClick={scrollSkills}>
-        Skills
+          <NavItem className="navItem" onClick={scrollSkills}>
+            Skills
   </NavItem>
-      <NavItem className="navItem" onClick={scrollPortfolio}>
-        Portfolio
+          <NavItem className="navItem" onClick={scrollPortfolio}>
+            Portfolio
   </NavItem>
-      <NavItem className="navItem" onClick={scrollContact}>
-        Contact
+          <NavItem className="navItem" onClick={scrollContact}>
+            Contact
   </NavItem>
-    </Nav>
-  </Navbar>
-);
+        </Nav>
+        </Navbar.Collapse>
+      </Navbar>
+    )
+  }
+};
 
 export default NavMenu;

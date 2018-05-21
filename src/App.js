@@ -10,17 +10,18 @@ import Footer from "./components/Footer";
 import { StickyContainer, Sticky } from 'react-sticky';
 
 
-
 class App extends Component {
   render() {
     return (
       <div className="App">
         <NavMenu />
+        <div className="content">
         <About />
         <Skills />
         <Portfolio />
         <Contact />
         <Footer />
+        </div>
       </div>
     );
   }

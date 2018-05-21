@@ -14,5 +14,11 @@
 }
 
 #skillsStart {
-    height: 102vh;
+    height: auto;
+}
+
+@media only screen and (max-width: 820px) {
+    .progressName {
+        margin-right: 20vh;
+    }
 }
