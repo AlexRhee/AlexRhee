@@ -15,7 +15,7 @@
     "react-sticky": "^6.0.2",
     "semantic-ui-react": "^0.80.0"
   },
-  "homepage": "http://alexsrhee.info",
+  "homepage": "https://alexsrhee.info",
   "scripts": {
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",

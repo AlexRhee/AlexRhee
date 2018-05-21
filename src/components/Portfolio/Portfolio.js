@@ -123,7 +123,7 @@ class Portfolio extends React.Component {
 
             <Col sm={12} md={6}>
               <div class="proj-container">
-                <img src={require('./tripsharefront.png')} alt="Avatar" class="projectImage" />
+                <img src={require('./tripsharelogo.png')} alt="Avatar" class="projectImage" />
                 <div class="middle">
                   <div class="text" onClick={this.handleShow2}>
                     TripShare
