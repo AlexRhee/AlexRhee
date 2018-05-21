@@ -16,40 +16,40 @@ class Skills extends React.Component {
             <h3 className="skillsHeader">Front-End:</h3>
           </Row>
           <Row>
-            <span className="progressName">HTML</span><ProgressBar bsStyle="warning" active now={95} />
+            <span className="progressName">HTML</span><ProgressBar bsStyle="info" active now={95} />
           </Row>
           <Row>
-            <span className="progressName">CSS</span><ProgressBar bsStyle="warning" active now={90} />
+            <span className="progressName">CSS</span><ProgressBar bsStyle="info" active now={90} />
           </Row>
           <Row>
-            <span className="progressName">React</span><ProgressBar bsStyle="warning" active now={95} />
+            <span className="progressName">React</span><ProgressBar bsStyle="info" active now={95} />
           </Row>
           <Row>
-            <span className="progressName">Wordpress</span><ProgressBar bsStyle="warning" active now={75} />
+            <span className="progressName">Wordpress</span><ProgressBar bsStyle="info" active now={75} />
           </Row>
           <Row>
-            <span className="progressName">UX/UI</span><ProgressBar bsStyle="warning" active now={65} />
+            <span className="progressName">UX/UI</span><ProgressBar bsStyle="info" active now={65} />
           </Row>
           <Row>
             <h3 className="skillsHeader">Back-End:</h3>
           </Row>
           <Row>
-            <span className="progressName">Node.js</span><ProgressBar bsStyle="warning" active now={95} />
+            <span className="progressName">Node.js</span><ProgressBar bsStyle="info" active now={95} />
           </Row>
           <Row>
-            <span className="progressName">API Implementation</span><ProgressBar bsStyle="warning" active now={85} />
+            <span className="progressName">API Implementation</span><ProgressBar bsStyle="info" active now={85} />
           </Row>
           <Row>
-            <span className="progressName">RESTful Principles</span><ProgressBar bsStyle="warning" active now={80} />
+            <span className="progressName">RESTful Principles</span><ProgressBar bsStyle="info" active now={80} />
           </Row>
           <Row>
             <h3 className="skillsHeader">Database:</h3>
           </Row>
           <Row>
-            <span className="progressName">MySQL</span><ProgressBar bsStyle="warning" active now={90} />
+            <span className="progressName">MySQL</span><ProgressBar bsStyle="info" active now={90} />
           </Row>
           <Row>
-            <span className="progressName">MongoDB</span><ProgressBar bsStyle="warning" active now={95} />
+            <span className="progressName">MongoDB</span><ProgressBar bsStyle="info" active now={95} />
           </Row>
         </Col>
         <Col sm={0} md={1} />

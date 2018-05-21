@@ -10,6 +10,7 @@
 
 #portfolioStart {
   height: auto;
+  overflow: auto;
 }
 
 .directions {
@@ -18,7 +19,7 @@
 
 .proj-container {
     position: relative;
-    width: 50%;
+    width: 100%;
     margin-bottom: 3vh;
     margin-left: auto;
   margin-right: auto;
@@ -62,4 +63,8 @@
 
 .modal-content {
   color: #050919 !important;
+}
+
+.portModal {
+  margin-top: 5vh;
 }

@@ -1,20 +1,10 @@
 .aboutFiller {
-    height: 2vh;
+    height: 5vh;
 }
 
 .aboutHeader {
     font-size: 40px;
     margin-bottom: 7vh;
-}
-
-.panelHeader {
-    background-color: #FFFD9B !important;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.panelBody {
-    background-color: #A6ECF4 !important;
 }
 
 .thumbnail, .profileBody {
@@ -32,6 +22,8 @@ background-color: #E0F7FF;
     margin-right: auto;
     padding-left: 0vh;
     padding-right: 0vh;
+    width: 75%;
+    height: auto;
 }
 
 .profileDiv {
@@ -58,21 +50,23 @@ background-color: #E0F7FF;
 
 .aboutMe {
     text-align: left;
-    margin-top: 3vh;
+    margin-top: 10%;
+    margin-bottom: auto;
+    position: absolute;
 }
 
 .aboutImg {
-    border-radius: 25%;
-    background: #FCFA85;
-    padding: 0; 
+    border-radius: 50%;
+    background: ivory;
+    padding: 5%; 
     width: auto;
     height: auto;  
 }
 
 .aboutImg:hover {
-    border-radius: 25%;
-    background: ivory;
-    padding: 0; 
+    border-radius: 50%;
+    background: #FCFA85;
+    padding: 5%; 
     width: auto;
     height: auto;  
 }
@@ -83,4 +77,14 @@ background-color: #E0F7FF;
 
 .aboutTransition-enter.aboutTransition-enter-active {
     opacity: 1;
+}
+
+.aboutIcons {
+    margin-top: 5%;
+    justify-content: right;
+}
+
+.aboutRow {
+    overflow: auto;
+    height: auto;
 }
