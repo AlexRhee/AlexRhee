@@ -7,10 +7,10 @@
 
 .footerSection {
     color: white !important;
-    text-align: center;
+    text-align: left;
     padding: 5px;
     margin-top: 0vh;
-    margin-bottom: 5vh;
+    margin-bottom: 0vh;
 }
 
 .iconLinks {
@@ -18,17 +18,20 @@
 }
 
 .footerIcons {
-    width: 10vh;
+    width: 5vh;
     height: auto;
     float: right;
     overflow: auto;
-    margin-right: 10vh;
+    margin-right: 5vh;
     margin-top: 0vh;
     margin-bottom: 3vh;
 }
 
 .footerIcons:hover {
     cursor: pointer;
+    -moz-box-shadow: 0 0 100px ivory;
+    -webkit-box-shadow: 0 0 100px ivory;
+    box-shadow: 0px 0px 100px ivory;
 }
 
 .upArrow {
@@ -42,6 +45,11 @@
 
 .upArrow:hover {
     cursor:pointer;
+    border-radius: 50%;
+    -moz-box-shadow: 0 0 100px ivory;
+    -webkit-box-shadow: 0 0 100px ivory;
+    box-shadow: 0px 0px 100px ivory;
+    background-color: ivory;
 }
 
 .row {

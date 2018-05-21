@@ -26,6 +26,12 @@ background-color: #E0F7FF;
     height: auto;
 }
 
+.profile:hover {
+    -moz-box-shadow: 0 0 5px ivory;
+-webkit-box-shadow: 0 0 5px ivory;
+box-shadow: 0px 0px 5px ivory;
+}
+
 .profileDiv {
     /* margin-left: 15vh;
     margin-right: 15vh; */
@@ -68,7 +74,10 @@ background-color: #E0F7FF;
     background: #FCFA85;
     padding: 5%; 
     width: auto;
-    height: auto;  
+    height: auto;
+    -moz-box-shadow: 0 0 100px #FCFA85;
+-webkit-box-shadow: 0 0 100px #FCFA85;
+box-shadow: 0px 0px 100px #FCFA85;
 }
 
 .aboutTransition-enter {
