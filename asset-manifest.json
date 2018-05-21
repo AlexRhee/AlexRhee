@@ -1,13 +1,20 @@
 {
-  "main.css": "static/css/main.d2805380.css",
-  "main.css.map": "static/css/main.d2805380.css.map",
-  "main.js": "static/js/main.834e7977.js",
-  "main.js.map": "static/js/main.834e7977.js.map",
+  "main.css": "static/css/main.e73a53eb.css",
+  "main.css.map": "static/css/main.e73a53eb.css.map",
+  "main.js": "static/js/main.a97e3310.js",
+  "main.js.map": "static/js/main.a97e3310.js.map",
   "static\\media\\Pairit.jpg": "static/media/Pairit.dfca56e6.jpg",
   "static\\media\\alex.jpg": "static/media/alex.477bb666.jpg",
   "static\\media\\logo.svg": "static/media/logo.5d5d9eef.svg",
+  "static\\media\\pairitnew.png": "static/media/pairitnew.79a91c03.png",
+  "static\\media\\portfolioabout.png": "static/media/portfolioabout.70c8d307.png",
+  "static\\media\\portfoliohead.png": "static/media/portfoliohead.db8a81ff.png",
+  "static\\media\\portfolioskills.png": "static/media/portfolioskills.86a13bd6.png",
   "static\\media\\thelistfront.png": "static/media/thelistfront.072e521f.png",
   "static\\media\\thelistlogo.png": "static/media/thelistlogo.06ec6e48.png",
+  "static\\media\\thelistsearch.png": "static/media/thelistsearch.83268fec.png",
   "static\\media\\tripshare2.png": "static/media/tripshare2.d491e35c.png",
-  "static\\media\\tripsharefront.png": "static/media/tripsharefront.c06b22dd.png"
+  "static\\media\\tripsharefront.png": "static/media/tripsharefront.c06b22dd.png",
+  "static\\media\\tripsharesearch.png": "static/media/tripsharesearch.338e3e73.png",
+  "static\\media\\tripshareview.png": "static/media/tripshareview.13502464.png"
 }
