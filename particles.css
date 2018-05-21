@@ -1,15 +1,16 @@
 * {
-    font-family: 'Sumana', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
-    background-color: #050919;
+    background-color: #08121E;
     color: ivory;
 }
 
 .header {
 height: 100vh;
-background: #050919;
+background: url("./nightsky.jpeg");
+/* background: #050919; */
 width: 100%;
 
 }
