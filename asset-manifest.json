@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.e73a53eb.css",
   "main.css.map": "static/css/main.e73a53eb.css.map",
-  "main.js": "static/js/main.a97e3310.js",
-  "main.js.map": "static/js/main.a97e3310.js.map",
+  "main.js": "static/js/main.5cfd8298.js",
+  "main.js.map": "static/js/main.5cfd8298.js.map",
   "static\\media\\Pairit.jpg": "static/media/Pairit.dfca56e6.jpg",
   "static\\media\\alex.jpg": "static/media/alex.477bb666.jpg",
   "static\\media\\logo.svg": "static/media/logo.5d5d9eef.svg",
@@ -15,6 +15,7 @@
   "static\\media\\thelistsearch.png": "static/media/thelistsearch.83268fec.png",
   "static\\media\\tripshare2.png": "static/media/tripshare2.d491e35c.png",
   "static\\media\\tripsharefront.png": "static/media/tripsharefront.c06b22dd.png",
+  "static\\media\\tripsharelogo.png": "static/media/tripsharelogo.31c934b3.png",
   "static\\media\\tripsharesearch.png": "static/media/tripsharesearch.338e3e73.png",
   "static\\media\\tripshareview.png": "static/media/tripshareview.13502464.png"
 }
