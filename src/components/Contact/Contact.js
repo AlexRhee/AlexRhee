@@ -31,7 +31,7 @@ const Contact = () => (
                     <h4 className="contactHead">Email: </h4>
                 </Col>
                 <Col className="contactInfo"  xs={12} md={4}>
-                   <h4>arheeee@gmail.com</h4>
+                   <h4>alexsrhee@gmail.com</h4>
                 </Col>
                 <Col className="contactInfo"  xs={12} md={4}>
                 <Image className="contactIcons" src={require('./gmail.png')} circle responsive onClick={gmail}/>

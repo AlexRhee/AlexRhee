@@ -34,7 +34,6 @@ const Footer = () => (
     <Row>
       <Col xs={12} md={7}>
         <div className="footerSection">
-          <h3 className="footerEmail">alexsrhee@gmail.com</h3>
           <p>Alex Rhee ©2018</p>
         </div>
       </Col>

@@ -22,7 +22,7 @@ class About extends React.Component {
                             <Row className="aboutRow">
                                 <Col sm={12} md={4}>
 
-                                    <Image className="profile" src={require('./alex.jpg')} circle responsive />
+                                    <Image className="profile" src={require('./alex.jpg')} rounded responsive />
                                 </Col>
                                 <Col sm={12} md={8}>
                                     <div className="aboutMe">
