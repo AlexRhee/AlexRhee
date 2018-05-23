@@ -1,19 +1,18 @@
 .progress {
     width: 70% !important;
-    float: right;
-    margin-right: 7%;
+    /* margin-right: 7%; */
     overflow:auto;
+    float:right;
 }
 
 .progress-bar {
-    float: right;
     overflow:auto;
 }
 
 .progressName {
-    margin-left: 7%;
+    /* margin-left: 7%; */
     text-align: right !important;
-    float: left;
+
 }
 
 .skillsHeader {

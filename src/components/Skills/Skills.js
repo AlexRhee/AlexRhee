@@ -12,8 +12,8 @@ class Skills extends React.Component {
         <h1 className="aboutHeader">Skills</h1>
         <Col sm={0} md={1} />
         <Col sm={12} md={10}>
-          <Col sm={0} md={1} />
-          <Col sm={12} md={10}>
+          <Col sm={0} md={2} />
+          <Col sm={12} md={8}>
             <Row>
               <h3 className="skillsHeader">Front-End:</h3>
             </Row>
@@ -54,7 +54,7 @@ class Skills extends React.Component {
               <span className="progressName">MongoDB</span><ProgressBar bsStyle="info" active now={95} />
             </Row>
           </Col>
-          <Col sm={0} md={1} />
+          <Col sm={0} md={2} />
         </Col>
         <Col sm={0} md={1} />
       </div>

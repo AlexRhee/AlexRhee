@@ -15,3 +15,8 @@
 .contactRow {
     margin-bottom: 5vh;
 }
+
+#contactStart {
+    height: auto;
+    overflow: auto;
+}
