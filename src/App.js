@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './animate.css';
 import About from "./components/About";
 import NavMenu from "./components/NavMenu";
 import Skills from "./components/Skills";

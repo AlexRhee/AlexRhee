@@ -12,14 +12,14 @@ class About extends React.Component {
 
 
         return (
-            <div id="aboutStart">
+            <div id="aboutStart" >
                 <ReactCSSTransitionGroup transitionName="aboutTransition" transitionEnterTimeout={700} transitionLeaveTimeout={700}>
                     <div className="aboutFiller" />
-                    <h1 className="aboutHeader">About</h1>
+                    <h1 className="aboutHeader wow fadeInRight animated">About</h1>
                     <Row>
                         <Col sm={0} md={2} />
                         <Col sm={12} md={8}>
-                            <Row className="aboutRow">
+                            <Row className="aboutRow wow fadeInLeft animated">
                                 <Col sm={12} md={4}>
 
                                     <Image className="profile" src={require('./alex.jpg')} rounded responsive />
@@ -30,7 +30,7 @@ class About extends React.Component {
                                 </div>
                                 </Col>
                             </Row>
-                            <Row className="aboutIcons">
+                            <Row className="aboutIcons wow fadeInRight animated">
                                 <Col sm={12} md={3}>
                                     <div>
                                         <img className="aboutImg" src={require('./dyn.png')} alt="242x200" />

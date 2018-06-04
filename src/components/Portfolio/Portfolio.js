@@ -68,12 +68,12 @@ class Portfolio extends React.Component {
 
       <div id="portfolioStart">
         <div className="aboutFiller" />
-        <h1 className="aboutHeader">Portfolio</h1>
+        <h1 className="aboutHeader wow fadeInLeft animated">Portfolio</h1>
         <Col sm={0} md={2} />
         <Col sm={12} md={8}>
           <Row>
             <Col sm={12} md={6}>
-              <div className="proj-container">
+              <div className="proj-container wow zoomInUp animated">
                 <img src={require('./thelistlogo.png')} alt="Avatar" class="projectImage" />
                 <div className="middle">
                   <div className="text" onClick={this.handleShow}>
@@ -122,7 +122,7 @@ class Portfolio extends React.Component {
 
 
             <Col sm={12} md={6}>
-              <div class="proj-container">
+              <div class="proj-container wow zoomInUp animated">
                 <img src={require('./tripsharelogo.png')} alt="Avatar" class="projectImage" />
                 <div class="middle">
                   <div class="text" onClick={this.handleShow2}>
@@ -176,7 +176,7 @@ class Portfolio extends React.Component {
 
           <Row>
             <Col sm={12} md={6}>
-              <div class="proj-container">
+              <div class="proj-container wow zoomInUp animated">
                 <img src={require('./Pairit.jpg')} alt="Avatar" class="projectImage" />
                 <div class="middle">
                   <div class="text" onClick={this.handleShow3}>
@@ -220,7 +220,7 @@ class Portfolio extends React.Component {
             </Col>
 
             <Col sm={12} md={6}>
-              <div class="proj-container">
+              <div class="proj-container wow zoomInUp animated">
                 <img src={require('./portfoliohead.png')} alt="Avatar" class="projectImage" />
                 <div class="middle">
                   <div class="text" onClick={this.handleShow4}>
