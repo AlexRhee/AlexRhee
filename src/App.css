@@ -37,3 +37,7 @@
 .sticky + .content {
   padding-top: 15vh;
 }
+
+#skillsStart, #portfolioStart, #contactStart {
+  margin-top: 125px;
+}

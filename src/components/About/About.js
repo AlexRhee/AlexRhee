@@ -26,7 +26,7 @@ class About extends React.Component {
                                 </Col>
                                 <Col sm={12} md={8}>
                                     <div className="aboutMe">
-                                        I'm an up and coming full stack web and software developer. With several varied projects under my belt, I am confident in leading or collaborating on any project from specs to production. I pride myself on my ability to adapt to the situation around me and to learn quicky and on the fly if needed. Software Development is my passion.
+                                        I'm an up and coming full stack web and software developer living in the greater Los Angeles area. Although I have always been passionate about coding, I was worked in Finance for about 4 years before deciding to fully commit myself to development .With several varied projects under my belt, I am confident in leading or collaborating on any project from specs to production. I pride myself on my ability to adapt to the situation around me and to learn quicky and on the fly if needed.
                                 </div>
                                 </Col>
                             </Row>
@@ -57,7 +57,7 @@ class About extends React.Component {
                                     <div>
                                         <img className="aboutImg" src={require('./fast.png')} alt="242x200" />
                                         <h3>Fast</h3>
-                                        <p>Quick and lag free sites, by utilizng the most up to date languages.</p>
+                                        <p>Quick and lag free sites, by utilizing the most up to date languages.</p>
                                     </div>
                                 </Col>
                             </Row>
