@@ -7,13 +7,13 @@
 
 .contactIcons:hover {
     cursor:pointer;
-    -moz-box-shadow: 0 0 100px ivory;
-    -webkit-box-shadow: 0 0 100px ivory;
-    box-shadow: 0px 0px 100px ivory;
+    -moz-box-shadow: 0 0 100px navy;
+    -webkit-box-shadow: 0 0 100px navy;
+    box-shadow: 0px 0px 100px navy;
 }
 
 .contactRow {
-    margin-bottom: 5vh;
+    padding-bottom: 9vh
 }
 
 #contactStart {

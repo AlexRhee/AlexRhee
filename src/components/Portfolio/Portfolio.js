@@ -119,14 +119,14 @@ class Portfolio extends React.Component {
               </div>
             </Col>
             <Col sm={12} md={4}>
-              <h2>The List</h2>
+              <h2 className="aboutLabel">The List</h2>
               <h4>Web application that allows you to create personalized shopping lists from the Amazon search API that you can share with others. Lists are saved into a database using MySQL.</h4>
             </Col>
           </div>
 
           <div className="projRow projRow2">
             <Col sm={12} md={4}>
-              <h2>TripShare</h2>
+              <h2 className="aboutLabel">TripShare</h2>
               <h4>An alternative to sharing your vacations on Facebook and Instagram, Tripshare allows you to log and share what cities you have traveled to, talk about places you visited within those cities and share pictures. Created with React.js, Mapbox GL JS, MongoDB.</h4>
             </Col>
 
@@ -227,14 +227,14 @@ class Portfolio extends React.Component {
               </div>
             </Col>
             <Col sm={12} md={4}>
-              <h2>Pair-It</h2>
+              <h2 className="aboutLabel">Pair-It</h2>
               <h4>Fun and simple web app that pulls from several APIs to help you pair your movie with a matching beer and food. Allows for you to search by beer, movie or food and will pair the other two for you!</h4>
             </Col>
           </div>
 
           <div className="projRow projRow2">
           <Col sm={12} md={4}>
-              <h2>Product Wireframes</h2>
+              <h2 className="aboutLabel" >Product Wireframes</h2>
               <h4>These wireframes are examples of some of the wireframing I have done in Balsamiq for various projects and websites.</h4>
             </Col>
             <Col sm={12} md={8}>

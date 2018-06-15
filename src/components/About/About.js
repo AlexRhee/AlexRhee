@@ -39,7 +39,7 @@ class About extends React.Component {
                                 <Col sm={12} md={3}>
                                     <div className="wow fadeInLeftBig animated" data-wow-delay="2.5s">
                                         <img className="aboutImg" src={require('./signal.png')} alt="242x200" />
-                                        <h3>Communication</h3>
+                                        <h3 className="aboutLabel">Communication</h3>
                                         <p>Clear and consistent communication is one of my strengths and priorities.</p>
 
                                     </div>
@@ -47,21 +47,21 @@ class About extends React.Component {
                                 <Col sm={12} md={3}>
                                     <div className="wow fadeInLeftBig animated" data-wow-delay="2s">
                                         <img className="aboutImg" src={require('./orbit.png')} alt="242x200" />
-                                        <h3>Responsive</h3>
+                                        <h3 className="aboutLabel">Responsive</h3>
                                         <p>Website and applications that work on all devices and screen sizes.</p>
                                     </div>
                                 </Col>
                                 <Col sm={12} md={3}>
                                     <div className="wow fadeInLeftBig animated" data-wow-delay="1.5s">
                                         <img className="aboutImg" src={require('./telescope.png')} alt="242x200" />
-                                        <h3>Detail Oriented</h3>
+                                        <h3 className="aboutLabel">Detail Oriented</h3>
                                         <p>An attention to detail that boils down to every last pixel.</p>
                                     </div>
                                 </Col>
                                 <Col sm={12} md={3}>
                                     <div className="wow fadeInLeftBig animated" data-wow-delay="1s">
                                         <img className="aboutImg" src={require('./robot.png')} alt="242x200" />
-                                        <h3>Design</h3>
+                                        <h3 className="aboutLabel">Design</h3>
                                         <p>Clean and intuitive designs that are aesthetically pleasing and easy to use.</p>
                                     </div>
                                 </Col>

@@ -27,7 +27,7 @@ const Contact = () => (
         <Col sm={0} md={1} />
         <Col sm={12} md={10}>
             <Grid>
-                <Row className="contactRow wow slideInLeft animated" data-wow-delay="0.5s">
+                <div className="contactRow wow slideInLeft animated" data-wow-delay="0.5s">
                     <Col className="contactInfo" xs={12} md={4}>
                         <h4 className="contactHead">Email: </h4>
                     </Col>
@@ -37,8 +37,8 @@ const Contact = () => (
                     <Col className="contactInfo" xs={12} md={4}>
                         <Image className="contactIcons" src={require('./gmail.png')} circle responsive onClick={gmail} />
                     </Col>
-                </Row>
-                <Row className="contactRow wow slideInLeft animated" data-wow-delay="1s">
+                </div>
+                <div className="contactRow wow slideInLeft animated" data-wow-delay="1s">
                     <Col xs={12} md={4}>
                         <h4 className="contactHead">LinkedIn:</h4>
                     </Col>
@@ -48,8 +48,8 @@ const Contact = () => (
                     <Col xs={12} md={4}>
                         <Image className="contactIcons" src={require('./linkedin.png')} circle responsive onClick={linkedin} />
                     </Col>
-                </Row>
-                <Row className="contactRow wow slideInLeft animated" data-wow-delay="1.5s">
+                </div>
+                <div className="contactRow wow slideInLeft animated" data-wow-delay="1.5s">
                     <Col xs={12} md={4}>
                         <h4 className="contactHead">GitHub:</h4>
                     </Col>
@@ -59,7 +59,7 @@ const Contact = () => (
                     <Col xs={12} md={4}>
                         <Image className="contactIcons" src={require('./github.png')} circle responsive onClick={github} />
                     </Col>
-                </Row>
+                </div>
             </Grid>
         </Col>
         <Col sm={0} md={1} />
