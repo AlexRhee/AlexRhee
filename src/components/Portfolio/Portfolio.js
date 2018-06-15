@@ -66,20 +66,19 @@ class Portfolio extends React.Component {
 
     return (
 
-      <div id="portfolioStart">
+      <div id="portfolioStart" >
         <div className="aboutFiller" />
         <h1 className="aboutHeader wow fadeInLeft animated">Portfolio</h1>
-        <Col sm={0} md={2} />
-        <Col sm={12} md={8}>
-          <Row>
-            <Col sm={12} md={6}>
-              <div className="proj-container wow zoomInUp animated">
+        <Col sm={0} md={3} />
+        <Col sm={12} md={6}>
+          <div className="projRow">
+            <Col sm={12} md={8}>
+              <div className="proj-container wow lightSpeedIn animated">
                 <img src={require('./thelistlogo.png')} alt="Avatar" class="projectImage" />
                 <div className="middle">
                   <div className="text" onClick={this.handleShow}>
                     The List
-        <p className="descrip">Product List Blog Using MySQL and RESTful API Principles</p>
-                    <h4>Click to learn more!</h4>
+                    <h3>Click to learn more!</h3>
                   </div>
 
                   <Modal
@@ -119,16 +118,26 @@ class Portfolio extends React.Component {
                 </div>
               </div>
             </Col>
+            <Col sm={12} md={4}>
+              <h2>The List</h2>
+              <h4>Web application that allows you to create personalized shopping lists from the Amazon search API that you can share with others. Lists are saved into a database using MySQL.</h4>
+            </Col>
+          </div>
+
+          <div className="projRow projRow2">
+            <Col sm={12} md={4}>
+              <h2>TripShare</h2>
+              <h4>An alternative to sharing your vacations on Facebook and Instagram, Tripshare allows you to log and share what cities you have traveled to, talk about places you visited within those cities and share pictures. Created with React.js, Mapbox GL JS, MongoDB.</h4>
+            </Col>
 
 
-            <Col sm={12} md={6}>
-              <div class="proj-container wow zoomInUp animated">
-                <img src={require('./tripsharelogo.png')} alt="Avatar" class="projectImage" />
-                <div class="middle">
-                  <div class="text" onClick={this.handleShow2}>
+            <Col sm={12} md={8}>
+              <div className="proj-container proj-container2 wow lightSpeedIn animated">
+                <img src={require('./tripsharelogo.png')} alt="Avatar" className="projectImage" />
+                <div className="middle">
+                  <div className="text" onClick={this.handleShow2}>
                     TripShare
-        <p className="descrip">Vacation Application/Blog Utilizing React and MongoDB</p>
-                    <h4>Click to learn more!</h4>
+                    <h3>Click to learn more!</h3>
                   </div>
 
                   <Modal
@@ -146,7 +155,7 @@ class Portfolio extends React.Component {
                     <Modal.Body>
                       <p>TripShare allows the users to sign up and create and share a blog that saves the cities they have visited as well as individual places/venues within those cities and any pictures they would like to include.</p>
                       <p>The application was made using React.js and react-materialize as the UI framework. MongoDB and Mongoose were used to store all of blog information that the user adds. Mapbox GL JS API was used to implement the world map and city search function of the application.</p>
-                      
+
                       <Carousel>
                         <Carousel.Item>
                           <img width={900} height={500} alt="900x500" src={require('./tripsharefront.png')} />
@@ -163,7 +172,7 @@ class Portfolio extends React.Component {
                           <img width={900} height={500} alt="900x500" src={require('./tripshareview.png')} />
                         </Carousel.Item>
                       </Carousel>
-                  
+
                     </Modal.Body>
                     <Modal.Footer>
                       <Button onClick={this.handleHide}>Close</Button>
@@ -172,17 +181,16 @@ class Portfolio extends React.Component {
                 </div>
               </div>
             </Col>
-          </Row>
+          </div>
 
-          <Row>
-            <Col sm={12} md={6}>
-              <div class="proj-container wow zoomInUp animated">
+          <div className="projRow projRow2">
+            <Col sm={12} md={8}>
+              <div class="proj-container wow lightSpeedIn animated">
                 <img src={require('./Pairit.jpg')} alt="Avatar" class="projectImage" />
                 <div class="middle">
                   <div class="text" onClick={this.handleShow3}>
                     Pair-It
-        <p className="descrip">Fun Web App Utilizing Third Party APIs</p>
-                    <h4>Click to learn more!</h4>
+                    <h3>Click to learn more!</h3>
                   </div>
 
                   <Modal
@@ -208,7 +216,7 @@ class Portfolio extends React.Component {
                         </Carousel.Item>
                         <Carousel.Item>
                           <img width={900} height={500} alt="900x500" src={require('./pairitnew.png')} />
-                        </Carousel.Item>                       
+                        </Carousel.Item>
                       </Carousel>
                     </Modal.Body>
                     <Modal.Footer>
@@ -218,15 +226,24 @@ class Portfolio extends React.Component {
                 </div>
               </div>
             </Col>
+            <Col sm={12} md={4}>
+              <h2>Pair-It</h2>
+              <h4>Fun and simple web app that pulls from several APIs to help you pair your movie with a matching beer and food. Allows for you to search by beer, movie or food and will pair the other two for you!</h4>
+            </Col>
+          </div>
 
-            <Col sm={12} md={6}>
-              <div class="proj-container wow zoomInUp animated">
-                <img src={require('./portfoliohead.png')} alt="Avatar" class="projectImage" />
+          <div className="projRow projRow2">
+          <Col sm={12} md={4}>
+              <h2>Product Wireframes</h2>
+              <h4>These wireframes are examples of some of the wireframing I have done in Balsamiq for various projects and websites.</h4>
+            </Col>
+            <Col sm={12} md={8}>
+              <div class="proj-container wow lightSpeedIn animated">
+                <img src={require('./Wireframe1.png')} alt="Avatar" class="projectImage" />
                 <div class="middle">
                   <div class="text" onClick={this.handleShow4}>
-                    Portfolio
-        <p className="descrip">Responsive Portfolio made with React.js and Particle.js</p>
-                    <h4>Click to learn more!</h4>
+                    Product Wireframes
+                    <h3>Click to learn more!</h3>
                   </div>
 
                   <Modal
@@ -242,20 +259,23 @@ class Portfolio extends React.Component {
             </Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
-                      <p>I created this site using React to create a fully responsive and interactive portfolio.</p>
-                      <p>Particle.js was used for the header to create a theme for the page and to add some flavor.</p>
+                      <p>This was a product wireframe for a fundrasing website I mocked up in Balsamiq.</p>
+                      <p>These are a few of the pages that I created and uploaded to Invision so that the client could click through a workable prototype of the website flow.</p>
                       <Carousel>
                         <Carousel.Item>
-                          <img width={900} height={500} alt="900x500" src={require('./portfoliohead.png')} />
+                          <img width={900} height={500} alt="900x500" src={require('./Wireframe1.png')} />
                           <Carousel.Caption>
                           </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
-                          <img width={900} height={500} alt="900x500" src={require('./portfolioabout.png')} />
+                          <img width={900} height={500} alt="900x500" src={require('./Wireframe2.png')} />
                         </Carousel.Item>    
                         <Carousel.Item>
-                          <img width={900} height={500} alt="900x500" src={require('./portfolioskills.png')} />
-                        </Carousel.Item>                      
+                          <img width={900} height={500} alt="900x500" src={require('./Wireframe3.png')} />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                          <img width={900} height={500} alt="900x500" src={require('./Wireframe4.png')} />
+                        </Carousel.Item>                   
                       </Carousel>
                     </Modal.Body>
                     <Modal.Footer>
@@ -265,9 +285,9 @@ class Portfolio extends React.Component {
                 </div>
               </div>
             </Col>
-          </Row>
+          </div>
         </Col>
-        <Col sm={0} md={2} />
+        <Col sm={0} md={3} />
       </div>
 
 

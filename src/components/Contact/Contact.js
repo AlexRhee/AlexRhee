@@ -23,11 +23,11 @@ var github = () => {
 const Contact = () => (
     <div id="contactStart">
         <div className="aboutFiller" />
-        <h1 className="aboutHeader wow fadeInLeft animated">Contact</h1>
+        <h1 className="aboutHeader wow slideInLeft animated">Contact</h1>
         <Col sm={0} md={1} />
         <Col sm={12} md={10}>
             <Grid>
-                <Row className="contactRow wow fadeInRight animated">
+                <Row className="contactRow wow slideInLeft animated" data-wow-delay="0.5s">
                     <Col className="contactInfo" xs={12} md={4}>
                         <h4 className="contactHead">Email: </h4>
                     </Col>
@@ -38,7 +38,7 @@ const Contact = () => (
                         <Image className="contactIcons" src={require('./gmail.png')} circle responsive onClick={gmail} />
                     </Col>
                 </Row>
-                <Row className="contactRow wow fadeInLeft animated">
+                <Row className="contactRow wow slideInLeft animated" data-wow-delay="1s">
                     <Col xs={12} md={4}>
                         <h4 className="contactHead">LinkedIn:</h4>
                     </Col>
@@ -49,7 +49,7 @@ const Contact = () => (
                         <Image className="contactIcons" src={require('./linkedin.png')} circle responsive onClick={linkedin} />
                     </Col>
                 </Row>
-                <Row className="contactRow wow fadeInRight animated">
+                <Row className="contactRow wow slideInLeft animated" data-wow-delay="1.5s">
                     <Col xs={12} md={4}>
                         <h4 className="contactHead">GitHub:</h4>
                     </Col>

@@ -69,3 +69,15 @@
 .portModal {
   margin-top: 5vh;
 }
+
+.proj-container2 {
+  float: right;
+}
+
+.projRow {
+  overflow: auto;
+}
+
+.projRow2 {
+  padding-top: 10vh;
+}
