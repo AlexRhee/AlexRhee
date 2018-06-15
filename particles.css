@@ -1,10 +1,14 @@
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; 
 }
 
 body {
-    background-color: #08121E;
-    color: ivory;
+    background-color: rgb(253, 253, 228);
+    color: #08121E;
+    /* background: url("./bluesky.jpg");
+    background-position: center;
+    background-size: contain; */
+    
 }
 
 .header {
@@ -22,6 +26,7 @@ width: 100%;
     text-align: center;
     color: ivory;
     z-index: 1;
+    font-family: 'Audiowide', cursive;
 }
 
 
@@ -68,4 +73,18 @@ canvas{
 
 #heroFiller {
     height: 35vh;
+}
+
+.heroName {
+    font-size: 100px;
+}
+
+.heroJob {
+    margin-bottom: 2%;
+}
+
+@media only screen and (max-width: 820px) {
+        .heroName {
+            font-size: 75px;
+        }
 }
