@@ -28,7 +28,6 @@ class Skills extends React.Component {
       series: [
         [],
         [],
-        [],
         [80, 85, 70, 65, 75, 80, 80, 75]
       ]
     }
@@ -42,8 +41,6 @@ class Skills extends React.Component {
     var ChartData3 = {
       labels: ['Wordpress', 'Git', 'Heroku', 'Visual Studio', 'Photoshop', 'Illustrator', 'Balsamiq','Excel'],
       series: [
-        [],
-        [],
         [],
         [],
         [75, 90, 70, 95, 85, 75, 75, 90]
