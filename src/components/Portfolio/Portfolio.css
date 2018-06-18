@@ -82,3 +82,12 @@
 .projRow2 {
   padding-top: 10vh;
 }
+
+.projectDescription {
+  text-align: left;
+}
+
+.languages {
+  color: gray;
+  font-size: 12px;
+}

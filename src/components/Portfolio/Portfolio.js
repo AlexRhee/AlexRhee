@@ -94,6 +94,7 @@ class Portfolio extends React.Component {
             </Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
+                    <p className="languages">JavaScript, Node.js, MySQL, Materialize/SASS, Amazon API</p>
                       <p>This application allows user to create shareable lists of items using the Amazon Product Search API.</p>
                       <p>Aside from using the Amazon Product Search API, the application also utilizes MySQL create a database that stores user lists.</p>
 
@@ -118,14 +119,14 @@ class Portfolio extends React.Component {
                 </div>
               </div>
             </Col>
-            <Col sm={12} md={4}>
+            <Col sm={12} md={4} className="projectDescription">
               <h2 className="aboutLabel">The List</h2>
               <h4>Web application that allows you to create personalized shopping lists from the Amazon search API that you can share with others. Lists are saved into a database using MySQL.</h4>
             </Col>
           </div>
 
           <div className="projRow projRow2">
-            <Col sm={12} md={4}>
+            <Col sm={12} md={4} className="projectDescription">
               <h2 className="aboutLabel">TripShare</h2>
               <h4>An alternative to sharing your vacations on Facebook and Instagram, Tripshare allows you to log and share what cities you have traveled to, talk about places you visited within those cities and share pictures. Created with React.js, Mapbox GL JS, MongoDB.</h4>
             </Col>
@@ -153,6 +154,7 @@ class Portfolio extends React.Component {
             </Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
+                    <p className="languages">JavaScript, React.js, Node.js, MongoDB, Bootstrap, Mapbox GL JS, MERN Stack</p>
                       <p>TripShare allows the users to sign up and create and share a blog that saves the cities they have visited as well as individual places/venues within those cities and any pictures they would like to include.</p>
                       <p>The application was made using React.js and react-materialize as the UI framework. MongoDB and Mongoose were used to store all of blog information that the user adds. Mapbox GL JS API was used to implement the world map and city search function of the application.</p>
 
@@ -206,6 +208,7 @@ class Portfolio extends React.Component {
             </Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
+                    <p className="languages">JavaScript, HTML5, Bootstrap, Node.js, Multiple API Implementation</p>
                       <p>This was a very simple an fun application that allows the user to find matching movies, beer or food based on their initial selection.</p>
                       <p>The application utilizes several API's to retrieve the "paired" information.</p>
                       <Carousel>
@@ -226,14 +229,14 @@ class Portfolio extends React.Component {
                 </div>
               </div>
             </Col>
-            <Col sm={12} md={4}>
+            <Col sm={12} md={4} className="projectDescription">
               <h2 className="aboutLabel">Pair-It</h2>
               <h4>Fun and simple web app that pulls from several APIs to help you pair your movie with a matching beer and food. Allows for you to search by beer, movie or food and will pair the other two for you!</h4>
             </Col>
           </div>
 
           <div className="projRow projRow2">
-          <Col sm={12} md={4}>
+          <Col sm={12} md={4} className="projectDescription">
               <h2 className="aboutLabel" >Product Wireframes</h2>
               <h4>These wireframes are examples of some of the wireframing I have done in Balsamiq for various projects and websites.</h4>
             </Col>
@@ -259,6 +262,7 @@ class Portfolio extends React.Component {
             </Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
+                      <p className="languages">UX Wireframes, Balsamiq</p>
                       <p>This was a product wireframe for a fundrasing website I mocked up in Balsamiq.</p>
                       <p>These are a few of the pages that I created and uploaded to Invision so that the client could click through a workable prototype of the website flow.</p>
                       <Carousel>
