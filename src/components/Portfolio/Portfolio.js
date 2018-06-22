@@ -97,7 +97,9 @@ class Portfolio extends React.Component {
                     <p className="languages">JavaScript, Node.js, MySQL, Materialize/SASS, Amazon API</p>
                       <p>This application allows user to create shareable lists of items using the Amazon Product Search API.</p>
                       <p>Aside from using the Amazon Product Search API, the application also utilizes MySQL create a database that stores user lists.</p>
-
+                      <a className="projectLink" onClick={thelist}>Click Here to go to the App</a>
+                      <br/>
+                      <br/>
                       <Carousel>
                         <Carousel.Item>
                           <img width={900} height={500} alt="900x500" src={require('./thelistlogo.png')} />
@@ -157,6 +159,9 @@ class Portfolio extends React.Component {
                     <p className="languages">JavaScript, React.js, Node.js, MongoDB, Bootstrap, Mapbox GL JS, MERN Stack</p>
                       <p>TripShare allows the users to sign up and create and share a blog that saves the cities they have visited as well as individual places/venues within those cities and any pictures they would like to include.</p>
                       <p>The application was made using React.js and react-materialize as the UI framework. MongoDB and Mongoose were used to store all of blog information that the user adds. Mapbox GL JS API was used to implement the world map and city search function of the application.</p>
+                      <a className="projectLink" onClick={tripshare}>Click Here to go to the App</a>
+                      <br/>
+                      <br/>
 
                       <Carousel>
                         <Carousel.Item>
@@ -211,6 +216,9 @@ class Portfolio extends React.Component {
                     <p className="languages">JavaScript, HTML5, Bootstrap, Node.js, Multiple API Implementation</p>
                       <p>This was a very simple an fun application that allows the user to find matching movies, beer or food based on their initial selection.</p>
                       <p>The application utilizes several API's to retrieve the "paired" information.</p>
+                      <a className="projectLink" onClick={pairit}>Click Here to go to the App</a>
+                      <br/>
+                      <br/>
                       <Carousel>
                         <Carousel.Item>
                           <img width={900} height={500} alt="900x500" src={require('./Pairit.jpg')} />
